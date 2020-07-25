@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.datiPage {
+
+}
+.datiPage h2 {
+  width: 90%;
+  margin: 10px auto;
+}
+.options {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #efefef;
+  justify-content: space-around;
+  align-items: center;
+}
+.optionsItem {
+  width: 90%;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.optionsItem.correct {
+  color: #fff;
+  background-color: lawngreen;
+}
+.optionsItem.error {
+  color: #fff;
+  background-color: orangered;
+}
